@@ -40,6 +40,5 @@ public class Aluno extends Pessoa {
     @Override
     public String getNomeFormatado() {
        return nome.toUpperCase();
-       //JOptionPane.showMessageDialog(null, "Nome formatado: " + nome.toUpperCase());
     }
 }
